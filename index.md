@@ -17,4 +17,6 @@ Previously, I:
 
 Feel free to check out my [Education](/education/), [Experience](/experience/), [Projects](/projects/), and [Publications](/publications/)!
 
+You can also download my latest [Resume](/assets/SohamP_resume_latest.pdf).
+
 Check out my technical blog at: [https://medium.com/@soham.phanse](https://medium.com/@soham.phanse)
