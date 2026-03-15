@@ -7,7 +7,7 @@ author_profile: true
 
 ## Publications
 
-{% bibliography --cited %}
+{% bibliography %}
 
 ### Featured Paper
 **Multi-agent Autonomy and Bandit Algorithms**  
