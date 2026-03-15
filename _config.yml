@@ -1,0 +1,64 @@
+# Site Settings
+locale: "en-US"
+title: "Soham Phanse"
+title_separator: "-"
+subtitle: "Space & Autonomy Geek | Software Engineer"
+name: "Soham Phanse"
+description: "Personal website of Soham Phanse - Software Engineer at Applied Materials, specializing in Controls, Robotics, and Autonomy."
+url: "https://sohamphanseiitb.github.io"
+baseurl: ""
+repository: "sohamphanseiitb/sohamphanseiitb.github.io"
+
+author:
+  name: "Soham Phanse"
+  avatar: "/assets/images/profile.jpg"
+  bio: "Software Engineer @ Applied Materials | IIT Bombay & UMichigan Alum"
+  location: "Santa Clara, CA"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/soham-phanse/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/sohamphanseiitb"
+
+theme: "minimal-mistakes-jekyll"
+minimal_mistakes_skin: "dark"
+
+plugins:
+  - jekyll-scholar
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+scholar:
+  style: apa
+  locale: en
+  source: _bibliography
+  bibliography: references.bib
+  format: html
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+navigation:
+  - title: "Education"
+    url: /education/
+  - title: "Experience"
+    url: /experience/
+  - title: "Projects"
+    url: /projects/
+  - title: "Publications"
+    url: /publications/
+
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
