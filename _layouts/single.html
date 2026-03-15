@@ -1,14 +1,5 @@
 ---
 layout: default
 ---
-<div id="main" role="main">
-  {% include sidebar.html %}
-  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
-    <div class="page__inner-wrap">
-      <section class="page__content e-content" itemprop="text">
-        {% if page.title %}<h1 id="page-title" class="page__title p-name" itemprop="headline">{{ page.title }}</h1>{% endif %}
-        {{ content }}
-      </section>
-    </div>
-  </article>
-</div>
+{% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
+{{ content }}
