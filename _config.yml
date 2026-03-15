@@ -22,22 +22,13 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/sohamphanseiitb"
 
-theme: "minimal-mistakes-jekyll"
-minimal_mistakes_skin: "dark"
+theme: minima
 
 plugins:
-  - jekyll-scholar
+  - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
 
-scholar:
-  style: apa
-  locale: en
-  source: _bibliography
-  bibliography: references.bib
-  format: html
 
 defaults:
   - scope:
