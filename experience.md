@@ -31,3 +31,5 @@ author_profile: true
 * Designed a real-time decision policy to optimize **UAV fleet management**, targeting safety and efficient deliveries.
 * Implemented a Python framework to evaluate performance and fine-tuned hyperparameters with Factorial Design.
 * Published findings in **AIAA SciTech 2024**.
+
+
